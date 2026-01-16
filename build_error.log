@@ -1,0 +1,24 @@
+vite v4.5.14 building for production...
+transforming...
+node_modules/react-router/dist/development/dom-export.mjs (11:0) Module level directives cause errors when bundled, "use client" in "node_modules/react-router/dist/development/dom-export.mjs" was ignored.
+node_modules/react-router/dist/development/index.mjs (11:0) Module level directives cause errors when bundled, "use client" in "node_modules/react-router/dist/development/index.mjs" was ignored.
+✓ 1721 modules transformed.
+✓ built in 1.43s
+"ThemeProvider" is not exported by "src/contexts/ThemeContext.jsx", imported by "src/App.jsx".
+file: /Users/visit/.gemini/antigravity/scratch/react-app/src/App.jsx:2:9
+1: import React from "react";
+2: import { ThemeProvider } from "./contexts/ThemeContext";
+            ^
+3: import Routes from "./Routes";
+error during build:
+RollupError: "ThemeProvider" is not exported by "src/contexts/ThemeContext.jsx", imported by "src/App.jsx".
+    at error (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:2287:30)
+    at Module.error (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:13745:16)
+    at Module.traceVariable (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:14175:29)
+    at ModuleScope.findVariable (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:12615:39)
+    at FunctionScope.findVariable (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
+    at ChildScope.findVariable (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
+    at Identifier.bind (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:8319:40)
+    at CallExpression.bind (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:5888:28)
+    at CallExpression.bind (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:9890:15)
+    at ReturnStatement.bind (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:5892:23)

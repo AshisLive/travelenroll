@@ -1,0 +1,22 @@
+vite v4.5.14 building for production...
+transforming...
+✓ 1746 modules transformed.
+✓ built in 1.45s
+"default" is not exported by "src/components/AppImage.jsx", imported by "src/pages/travel-lead-generation/components/HeroSection.jsx".
+file: /Users/visit/.gemini/antigravity/scratch/react-app/src/pages/travel-lead-generation/components/HeroSection.jsx:2:7
+1: import React from 'react';
+2: import Image from '../../../components/AppImage';
+          ^
+3: import Button from '../../../components/ui/Button';
+error during build:
+RollupError: "default" is not exported by "src/components/AppImage.jsx", imported by "src/pages/travel-lead-generation/components/HeroSection.jsx".
+    at error (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:2287:30)
+    at Module.error (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:13745:16)
+    at Module.traceVariable (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:14175:29)
+    at ModuleScope.findVariable (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:12615:39)
+    at ReturnValueScope.findVariable (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
+    at ChildScope.findVariable (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
+    at ReturnValueScope.findVariable (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
+    at Identifier.bind (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:8319:40)
+    at CallExpression.bind (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:5888:28)
+    at CallExpression.bind (file:///Users/visit/.gemini/antigravity/scratch/react-app/node_modules/rollup/dist/es/shared/node-entry.js:9890:15)
