@@ -11,7 +11,7 @@ const Routes = () => {
       <ErrorBoundary>
       <ScrollToTop />
       <RouterRoutes>
-        {/* Define your route here */}
+        {/* Define route here */}
         <Route path="/" element={<TravelLeadGeneration />} />
         <Route path="/travel-lead-generation" element={<TravelLeadGeneration />} />
         <Route path="*" element={<NotFound />} />
