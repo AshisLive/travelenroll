@@ -30,9 +30,11 @@ const HeroSection = ({ onCTAClick }) => {
                 {heroImages?.map((image, index) =>
                     <div key={index} className="relative overflow-hidden">
                         <Image
+                            fetchPriority="high"
                             src={image?.src}
                             alt={image?.alt}
-                            className="w-full h-full object-cover" />
+                            className="w-full h-full object-cover"
+                        />
                     </div>
                 )}
             </div>
