@@ -10,7 +10,6 @@ package-lock.json
 /build
 .vscode/
 .idea/
-vite.config.*s.*
 # Nestjs specific
 /dist
 /node_modules
