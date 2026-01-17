@@ -5,19 +5,19 @@ import Button from '../../../components/ui/Button';
 const HeroSection = ({ onCTAClick }) => {
     const heroImages = [
         {
-            src: "https://images.unsplash.com/photo-1687027736162-eac17cce3a83",
+            src: "https://images.unsplash.com/photo-1687027736162-eac17cce3a83?w=800&q=75&fm=webp&fit=crop",
             alt: "Majestic white marble Taj Mahal monument with reflecting pool and lush green gardens under clear blue sky at sunrise in Agra India"
         },
         {
-            src: "https://images.unsplash.com/photo-1682489251896-c06dd3b3dea1",
+            src: "https://images.unsplash.com/photo-1682489251896-c06dd3b3dea1?w=800&q=75&fm=webp&fit=crop",
             alt: "Ancient stone ghats along sacred Ganges river with traditional boats and pilgrims performing morning rituals in golden sunrise light at Varanasi"
         },
         {
-            src: "https://images.unsplash.com/photo-1563731316056-8dacf9a43c68",
+            src: "https://images.unsplash.com/photo-1563731316056-8dacf9a43c68?w=800&q=75&fm=webp&fit=crop",
             alt: "Serene Kerala backwaters with traditional wooden houseboat floating on calm emerald green water surrounded by coconut palm trees and tropical vegetation"
         },
         {
-            src: "https://images.unsplash.com/photo-1717648367021-fb130e6c5bbe",
+            src: "https://images.unsplash.com/photo-1717648367021-fb130e6c5bbe?w=800&q=75&fm=webp&fit=crop",
             alt: "Dramatic snow-capped Himalayan mountain peaks with winding mountain road and Buddhist prayer flags in vibrant colors against deep blue sky in Ladakh"
         }];
 

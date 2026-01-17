@@ -10,7 +10,7 @@ const PackagesSection = ({ onBookNow }) => {
         {
             id: 1,
             name: "Solo Explorer Package",
-            image: "https://images.unsplash.com/photo-1533398892249-1d93b83b958d",
+            image: "https://images.unsplash.com/photo-1533398892249-1d93b83b958d?w=1200&q=80&fm=webp&fit=crop",
             imageAlt: "Young solo traveler with backpack standing on mountain cliff overlooking scenic valley with arms spread wide enjoying freedom and adventure in golden sunset light",
             destinations: ["Goa", "Himachal Pradesh", "Rajasthan"],
             duration: "5-7 Days",
@@ -46,7 +46,7 @@ const PackagesSection = ({ onBookNow }) => {
         {
             id: 3,
             name: "Spiritual Journey",
-            image: "https://images.unsplash.com/photo-1695453892614-c9471ed6479a",
+            image: "https://images.unsplash.com/photo-1695453892614-c9471ed6479a?w=1200&q=80&fm=webp&fit=crop",
             imageAlt: "Ancient Hindu temple with intricate stone carvings and devotees performing evening aarti ceremony with oil lamps creating warm glow against ornate pillars and sacred architecture",
             destinations: ["Varanasi", "Rishikesh", "Haridwar"],
             duration: "6-8 Days",
@@ -64,7 +64,7 @@ const PackagesSection = ({ onBookNow }) => {
         {
             id: 4,
             name: "Adventure Seeker",
-            image: "https://images.unsplash.com/photo-1624837224992-7fd12d6765d1",
+            image: "https://images.unsplash.com/photo-1624837224992-7fd12d6765d1?w=1200&q=80&fm=webp&fit=crop",
             imageAlt: "Adventure enthusiast paragliding over lush green Himalayan mountains with snow-capped peaks in background and colorful parachute against clear blue sky",
             destinations: ["Ladakh", "Manali", "Uttarakhand"],
             duration: "8-12 Days",
