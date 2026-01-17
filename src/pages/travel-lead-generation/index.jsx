@@ -30,7 +30,7 @@ const TravelLeadGeneration = () => {
             <Helmet>
                 <title>BharatYatra - Discover Incredible India | Curated Travel Experiences</title>
                 <link rel="icon"
-                href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%23e67e22' stroke-width='6'/><g transform='rotate(45 50 50)'><path d='M50 15 L62 50 L50 85 L38 50 Z' fill='%23e67e22'/></g></svg>" />
+                    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%23e67e22' stroke-width='6'/><g transform='rotate(45 50 50)'><path d='M50 15 L62 50 L50 85 L38 50 Z' fill='%23e67e22'/></g></svg>" />
                 <meta
                     name="description"
                     content="Explore India's rich heritage and breathtaking landscapes with BharatYatra. From Kerala backwaters to Himalayan peaks, we craft unforgettable journeys across Goa, Rajasthan, Ladakh, Kashmir, and more. Get personalized itineraries on WhatsApp."
@@ -46,6 +46,24 @@ const TravelLeadGeneration = () => {
                 />
                 <meta property="og:type" content="website" />
                 <link rel="canonical" href="https://bharatyatra.com/travel-lead-generation" />
+                <script type="application/ld+json">
+                    {`
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "TravelAgency",
+                            "name": "BharatYatra",
+                            "image": "https://bhratyatratravelpackage.vercel.app/og-image.jpg",
+                            "description": "Explore India's rich heritage and breathtaking landscapes with BharatYatra. Custom travel packages for Kerala, Goa, Rajasthan, and more.",
+                            "url": "https://bhratyatratravelpackage.vercel.app/",
+                            "telephone": "+919876543210", 
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressCountry": "IN"
+                            },
+                            "priceRange": "$$"
+                        }
+                    `}
+                </script>
             </Helmet>
 
             <div className="min-h-screen bg-background dark:bg-slate-900 smooth-scroll transition-colors duration-300">
