@@ -44,14 +44,14 @@ const HeroSection = ({ onCTAClick }) => {
                     </div>
 
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white leading-tight">
-                        Discover the Soul of <br />
+                        Bharat Yatra <br />
                         <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                            Incredible India
+                            Travel Packages
                         </span>
                     </h1>
 
                     <p className="text-lg md:text-xl lg:text-2xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-                        From the majestic Himalayas to serene backwaters, experience curated journeys that celebrate India's rich heritage and breathtaking landscapes.
+                        Discover Incredible India with our exclusive Bharat Yatra travel packages. From the majestic Himalayas to serene backwaters, experience curated journeys that celebrate India's rich heritage.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 pt-6">
